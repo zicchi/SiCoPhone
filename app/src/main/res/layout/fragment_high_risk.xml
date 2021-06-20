@@ -9,28 +9,38 @@
     android:layout_marginStart="20dp"
     >
 
+
+
+
     <TextView
-        android:layout_marginTop="40dp"
-        android:id="@+id/text_dashboard"
+        android:layout_marginTop="56dp"
+        android:id="@+id/tvQ1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="32sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         android:text="Pusat Bantuan \nCOVID-19"
         />
 
-    <TextView
-        android:layout_marginTop="27dp"
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Silahkan hubungi dibawah ini"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="66dp" />
-
-    <androidx.recyclerview.widget.RecyclerView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/helpList"
-        />
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:paddingTop="24dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kemungkinan Tinggi"
+            android:layout_marginBottom="16dp"
+            />
+
+
+    </LinearLayout>
+
+
 </LinearLayout>
